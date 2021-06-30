@@ -1,0 +1,180 @@
+body {
+	background-color: #f4f1de;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 500%;
+	color: #81b29a;
+	text-align: center;
+}
+
+.maintext {
+	display: flex;
+}
+.poem {
+	width: 47%;
+	text-align: center;
+	background-color: #e07a5f;
+	margin: 1.5%;
+	border-radius: 10px;
+	color: #f4f1de;
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding: 8%;
+}
+.description {
+	width: 40%;
+	background-color: #3d405b;
+	margin: 1.5%;
+	display: inline;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+
+
+	color: #f4f1de;
+	text-align: center;
+	padding: 5%;
+	height: 50%;
+	align-items: center;
+}
+h2 {
+	text-align: center;
+}
+.description:before {
+	  content: "";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid #3d405b;
+      border-bottom: 13px solid transparent;
+}
+
+
+@media (max-width: 700px) {
+
+.navitem {
+	color: #a8dadc;
+	font-size: 10%;
+	font-weight: bold;
+}
+.navitem:visited {
+	color: #f1faee;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.navitem:hover {
+	color: #a8dadc;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.navitem:active {
+	color: #a8dadc;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+
+.description:before {
+
+	display: none;
+	margin: 1.5%;
+	}
+
+
+h1 {
+	font-size: 375%;
+	}
+span {
+	display: block;
+	}
+.poem {
+	width: 1000%;
+	margin: 1.5%;
+	width: 84%
+}
+.maintext {
+	flex-direction: column;
+}
+
+.description {
+	width: 90%;
+	}
+
+}
+.index {
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: #974621;
+	font-weight: bold;
+	font-style: italic;
+}
+.index:visited {
+	color: #974621;
+}
+.index:hover {
+	color: orange;
+}
+.index:visited {
+	color: #974621;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #1d3557;
+	margin: 0px;
+	padding: 1rem;
+
+}
+.navitem {
+	color: #f1faee;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+	text-transform: uppercase;
+}
+.option {
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 1.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.navitem:visited {
+  color: #f1faee;
+}
+
+.navitem:hover {
+  color: #a8dadc;
+}
+
+.navitem:active {
+  color: #a8dadc;
+}
+img {
+	width: 1.75rem;
+	height: 1.5rem;	}
+
+#home {
+	width: 2.5rem;
+	height: 2.5rem;
+	justify-content: center;	}
+#homecontainer {
+	border-radius: 200px;
+	background-color: #1d3557;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50%;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
