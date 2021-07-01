@@ -46,6 +46,22 @@ h1 {
 
 }
 
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 200%;
+	color: #81b29a;
+	text-align: center;
+
+}
+
+button {
+	background-color: #3d405b;
+	border: none;
+	text-align: center;
+	font-size: 80%;
+
+}
+
 .story {
 	width: 30%;
 	font-size: 1.35rem;
@@ -58,6 +74,7 @@ h1 {
 	height: 50%;
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 }
 
 .storyalt {
@@ -117,6 +134,12 @@ a:visited {
 h1 {
 	font-size: 375%;
 	}
+
+h2 {
+	font-size: 100%;
+	}
+
+
 .navitem {
 	font-size: 75%;
 	font-weight: bold;

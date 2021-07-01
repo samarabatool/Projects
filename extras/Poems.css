@@ -55,13 +55,17 @@ h2 {
       border-bottom: 13px solid transparent;
 }
 
+.navitem {
+	color: orange;
+	font-size: 75%;
+	font-weight: bold;
+}
+
 
 @media (max-width: 700px) {
 
-.navitem {
-	color: #a8dadc;
-	font-size: 10%;
-	font-weight: bold;
+.option {
+	font-size: 80%;
 }
 .navitem:visited {
 	color: #f1faee;
