@@ -119,6 +119,21 @@ a:visited {
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 }
+
+.optionmobile {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 700px) {
 
 .story {
@@ -133,10 +148,12 @@ a:visited {
 
 h1 {
 	font-size: 375%;
+	color: #101935;
 	}
 
 h2 {
 	font-size: 100%;
+	color: #101935;
 	}
 
 
@@ -160,6 +177,36 @@ h2 {
 	color: #a8dadc;
 	font-size: 75%;
 	font-weight: bold;
+}
+
+.optionmobile {
+	display: inline-flex;
+}
+.iconmobile {
+	height: 40px;
+	width: 40px;
+	margin-left: 20px;
+}
+.option {
+	display: none;
+}
+
+ul {
+	background-color: #a8dadc;
+
+}
+body {
+	background-color: #f2fdff
+}
+
+h3 {
+	color: #f2fdff;
+}
+.story {
+	background-color: #564787;
+}
+.storyalt {
+	background-color: #21a0a0;
 }
 
 }

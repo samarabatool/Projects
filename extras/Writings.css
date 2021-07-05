@@ -68,6 +68,10 @@ div {
 
 }
 
+.optionmobile {
+	display: none;
+}
+
 
 
 @media only screen and (max-width: 700px) {
@@ -85,6 +89,28 @@ a {
 
 	font-size: 70%;
 
+}
+
+.option {
+	display: none;
+}
+.optionmobile {
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+}
+
+ul {
+	background-color: #a8dadc;
+
+}
+
+body {
+	background-color: #f2fdff;
+}
+h3 {
+	color: #101935;
 }
 }
 
